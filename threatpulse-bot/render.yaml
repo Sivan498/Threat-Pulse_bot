@@ -1,0 +1,19 @@
+services:
+  - type: worker
+    name: threatpulse-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python src/main.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: OTX_API_KEY
+        sync: false
+      - key: POLL_INTERVAL
+        value: "3600"
+      - key: DATA_DIR
+        value: "/opt/render/project/data"
+    disk:
+      name: bot-data
+      mountPath: /opt/render/project/data
+      sizeGB: 1

@@ -1,0 +1,19 @@
+{
+  "7458975460": {
+    "chat_id": "7458975460",
+    "attack_types": [
+      "ransomware",
+      "malware",
+      "zeroday"
+    ],
+    "countries": [
+      "IL",
+      "malware"
+    ],
+    "os": [
+      "linux",
+      "windows"
+    ],
+    "blocked_sources": []
+  }
+}
