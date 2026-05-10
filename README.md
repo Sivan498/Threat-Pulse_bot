@@ -12,7 +12,7 @@
 
 ---
 
-## ✨ What it does
+## What it does
 
 Instead of manually checking CISA, BleepingComputer, Krebs, and a dozen other sources, ThreatPulse monitors them all and sends you a Telegram message **only when something matches your profile**.
 
